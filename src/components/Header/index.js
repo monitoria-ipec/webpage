@@ -37,15 +37,15 @@ const Header = ({ links }) => {
           </li>
           <li>
             <BsPencilSquare />
-            <a href={notas}>Notas</a>
+            <a rel="noopener noreferrer" target="_blank" href={notas}>Notas</a>
           </li>
           <li>
             <MdSchedule />
-            <a href={cronogramas}>Cronogramas</a>
+            <a rel="noopener noreferrer" target="_blank" href={cronogramas}>Cronogramas</a>
           </li>
           <li>
             <SiGoogleclassroom />
-            <a href={classroom}>Classroom</a>
+            <a rel="noopener noreferrer" target="_blank" href={classroom}>Classroom</a>
           </li>
         </ul>
       </div>
