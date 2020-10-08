@@ -1,0 +1,33 @@
+.info-container {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+
+  margin-top: 96px;
+
+  .info-about-section {
+    padding: 12px;
+    color: white;
+    border: 1px solid black;
+    background: url("../../assets/images/back_cropped.jpeg") bottom center
+      no-repeat;
+    width: 1000px;
+    border-radius: 10px;
+
+    text-align: center;
+
+    .info-about-section--header {
+      margin-bottom: 16px;
+    }
+
+    .info-about-section--text {
+      margin-bottom: 16px;
+    }
+
+    margin-bottom: 24px;
+  }
+
+  .useful-links-section {
+    border: 1px solid blue;
+  }
+}
