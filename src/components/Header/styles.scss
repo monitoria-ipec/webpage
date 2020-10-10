@@ -4,7 +4,7 @@ header {
   justify-content: space-between;
   position: fixed;
   top: 0;
-  background-color: #151515;
+  background-color: $151515;
 
   .logo-wrapper {
     margin: 0 0 0 20px;
@@ -20,7 +20,7 @@ header {
     display: flex;
     align-items: center;
     list-style: none;
-    color: white;
+    color: $white;
   }
 
   li {
@@ -36,7 +36,7 @@ header {
     a {
       margin: 0 0 0 5px;
       text-decoration: none;
-      color: white;
+      color: $white;
     }
 
     a {
@@ -51,7 +51,7 @@ header {
       position: absolute;
       left: 50%;
       bottom: -5px;
-      background: none repeat scroll 0 0 #57a5f2;
+      background: none repeat scroll 0 0 $orange;
       transition: width 0.3s ease 0s, left 0.3s ease 0s;
     }
 
@@ -81,7 +81,14 @@ header {
     width: 100%;
     height: 50px;
     justify-content: center;
-    background-color: #57a5f2;
+    background-color: $dark-purple;
+
+    &:hover {
+      background-color: $orange;
+    }
+    &:after {
+      display: none;
+    }
   }
 
   .header-content-desktop {
@@ -99,7 +106,7 @@ header {
   .header-icon-bars {
     display: flex;
     align-items: center;
-    color: white;
+    color: $white;
   }
 
   .icon-bars {
