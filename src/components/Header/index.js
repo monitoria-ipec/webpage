@@ -57,7 +57,7 @@ const Header = ({ links }) => {
     <header>
       <div className="logo-wrapper">
         <Link to="/">
-          <img src={logo} />
+          <div class="logo">Monitoria <span className="highlight">IP</span></div>
         </Link>
       </div>
       <div className="header-content-desktop">
