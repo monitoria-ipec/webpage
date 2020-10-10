@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import InfoSection from "../components/InfoSection";
-
+import UsefulLinksSection from '../components/UsefulLinksSection';
 const usefulLinks = [
   {
     name: "Site Da Cadeira",
@@ -13,6 +13,7 @@ const IndexPage = () => {
   return (
     <Layout title={"Home"}>
       <InfoSection usefulLinks={usefulLinks}></InfoSection>
+      <UsefulLinksSection />
     </Layout>
   );
 };
