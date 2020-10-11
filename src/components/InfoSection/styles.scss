@@ -39,9 +39,10 @@ $border-radius: 20px;
 
       &--text {
         margin-bottom: 16px;
+        font-size: 18px;
 
         background-color: $white;
-        padding: 12px;
+        padding: 20px 12px;
 
         left: -100%;
         width: 200%;
@@ -55,25 +56,24 @@ $border-radius: 20px;
   .info-about-video-section {
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-flow: column;
 
     &--header {
       margin-top: 108px;
       padding-top: $default-padding-top - 108px;
-      padding-left: 8px;
-      padding-bottom: 12px;
+
       margin-bottom: $header-bottom-margin;
+      padding-left: 16px;
+      padding-bottom: 12px;
 
       background-color: $orange;
 
       border-radius: $border-radius;
 
-      right: -50%;
       width: 150%;
       position: relative;
       padding-right: 50%;
+      right: -25%;
     }
 
     &--video {
