@@ -22,15 +22,15 @@
 
   h1 {
     padding-top: 40px;
-    // color: $white;
   }
 }
 
 .useful-links-cards {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
   margin-top: 40px;
+  display: grid;
+  grid-gap: 26px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 }
 
 .link-card-container {
@@ -65,6 +65,67 @@
 
     p {
       opacity: 1;
+    }
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+  .useful-links-content {
+    width: 800px;
+  }
+  .useful-links-title {
+    h1 {
+      font-size: 25px;
+    }
+  }
+}
+@media only screen and (max-width: 830px) {
+  .useful-links-content {
+    width: 600px;
+  }
+
+  .useful-links-cards {
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+
+  .link-card-container {
+    width: 120px;
+    height: 120px;
+
+    img {
+      width: 80px;
+      height: 80px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .useful-links-content {
+    width: 400px;
+  }
+  .useful-links-cards {
+    grid-gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .useful-links-content {
+    width: 260px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .useful-links-content {
+    width: 120px;
+  }
+  .useful-links-title {
+    h1 {
+      font-size: 20px;
     }
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.scss';
 import Card from './Card';
-import Links from '../../assets/images/UsefulLinks';
+import Links from './data.js';
 
 const UsefulLinksSection = () => {
   return (
