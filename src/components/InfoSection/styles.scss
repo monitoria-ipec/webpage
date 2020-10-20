@@ -44,11 +44,13 @@ $border-radius: 20px;
         background-color: $white;
         padding: 20px 12px;
 
-        left: -100%;
-        width: 200%;
         position: relative;
-        padding-left: 100%;
+
         border-radius: $border-radius;
+
+        left: -200%;
+        width: 300%;
+        padding-left: 200%;
       }
     }
   }
