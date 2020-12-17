@@ -2,6 +2,8 @@ import React from "react";
 import Layout from "../components/Layout";
 import InfoSection from "../components/InfoSection";
 import UsefulLinksSection from '../components/UsefulLinksSection';
+import StaffSection from '../components/StaffSection';
+
 const usefulLinks = [
   {
     name: "Site Da Cadeira",
@@ -14,6 +16,7 @@ const IndexPage = () => {
     <Layout title={"Home"}>
       <InfoSection usefulLinks={usefulLinks}></InfoSection>
       <UsefulLinksSection />
+      <StaffSection />
     </Layout>
   );
 };
