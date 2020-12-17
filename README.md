@@ -51,6 +51,15 @@ yarn develop
 ```
 * You should now be running a new Gatsby site locally! 🎉
 
+## Starting using docker
+
+```
+docker build -t gatsby-develop .
+docker run -it --rm -v ${pwd}:/site -p 8000:8000 gatsby-develop develop
+```
+
+More info on: https://github.com/aripalo/gatsby-docker
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
